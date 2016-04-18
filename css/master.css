@@ -1,0 +1,274 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+}
+
+
+body {
+	line-height: 0;
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size: 0.9em;
+}
+
+.header .image img {
+	width: 950px;
+	/*border-top: 5px solid #02350A;*/
+}
+.header .title {
+	background-color: #335571;
+    	color: #f1f1e7;
+	font-size: x-large;
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+	/*border-top: 5px solid #02350A;*/
+}
+
+div.center {
+	margin: 20px 0px 50px 0px;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+ol {
+	margin-left: 20px;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 2;
+}
+
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+/** end of defaults **/
+
+
+/** common classes **/
+
+div.clear { 
+    clear:both; 
+    line-height: 0px; /* for ie */
+} 
+
+.right { 
+    float: right; 
+    margin: 0px 0px 0px 20px;
+} 
+
+.left { 
+    float: left; 
+}
+
+.invisible {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+td.bottom {
+	vertical-align: bottom;
+}
+
+/** Body **/
+
+body {
+	text-align: center;
+	min-width: 950px;
+/*	background-color: #EAE8E4; */
+    background-color: #f1f1e7;
+}
+
+div#header {
+    line-height: 0px;
+    height: 200px;
+}
+
+#wrapper {
+	text-align: left;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+div.active {
+    background-color: white !important;
+    color: darkblue;
+} 
+
+div.links a {
+    color: black;
+}
+
+div.links {
+    margin: 0px auto 0px auto;
+    height: 35px;
+    background-color: #f5f5f5;
+}
+
+div.links ul {
+    margin: 0px auto 0px auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+    list-style-type: none;
+}
+
+div.links ul li {
+    float: left;
+    padding: 10px 10px 10px 10px;
+    border-right: 1px solid #d1d1d1;
+}
+
+div.nav_bar div.link:hover {
+    background-color: white;
+}
+
+div.nav_bar div.link:hover a {
+    color: darkblue;
+}
+
+div.content {
+    padding: 10px 25px 25px 25px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+div.content p {
+    margin: 15px 0px 0px 0px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+div.nav_bar div.link a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+
+
+div.content h1 {
+    padding: 20px 0px 5px 0px;
+    font-size: 1.4em;
+    color: darkblue;
+}
+
+div.content h2 {
+    color: darkblue;
+    padding: 10px 0 10px 0px;
+    font-size: 1.2em;
+}
+
+
+div.content ul.disc li {
+    margin-left: 15px;
+    list-style: disc outside none;
+}
+
+div.content ul li {
+    padding: 5px 0px 0px 5px;
+    line-height: 1.5;
+}
+
+div.content div.topics {
+    margin: 15px 0px 0px 0px;
+}
+
+div.topics ul, div.conferences ul {
+    margin: 5px 100px 5px 25px;
+    list-style: disc outside none;
+}
+
+div.topics div.title {
+    font-weight: bold;
+    list-style: none;
+    margin: 10px 0px 0px 3px;
+}
+
+div.content table td {
+    padding: 5px;
+}
+
+div.footer {
+    padding: 10px;
+    font-size: 0.8em;
+    text-align: center;
+    color: black;
+    -moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.super {
+    vertical-align: super;
+    font-size: 0.8em;
+}
+
+ul.logos {
+    border-left: 1px dotted black;
+    padding: 10px 10px 10px 10px;
+}
+
+img.width_rest {
+    width: 200px;
+}
+
+ul.logos li {
+    margin-top: 20px;
+    text-align: center;
+}
+
+div.ieee_container {
+    background-color: #0073ae; 
+    padding: 5px;
+}
+
+#logo_table {
+    margin: 20px auto 0px auto;
+    
+}
+
+#logo_table td {
+    padding: 5px;
+    text-align: center;
+}
+
+img.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+

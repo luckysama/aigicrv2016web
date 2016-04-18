@@ -1,0 +1,1 @@
+document.write('\ <div class="footer"> \  &copy; Copyright AI/GI/CRV 2016 Conference, University of Victoria <br/> </div> ');
